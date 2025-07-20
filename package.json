@@ -1,0 +1,41 @@
+{
+  "name": "audio-toggle-extension",
+  "version": "1.0.0",
+  "description": "GNOME Shell extension for toggling between headset and speaker audio outputs",
+  "main": "audio-toggle@local/extension.js",
+  "scripts": {
+    "install": "./install.sh",
+    "uninstall": "./uninstall.sh",
+    "test": "./test-system.sh",
+    "dev": "npm run install && journalctl -f -o cat /usr/bin/gnome-shell",
+    "lint": "gjs -c audio-toggle@local/extension.js",
+    "clean": "rm -rf ~/.local/share/gnome-shell/extensions/audio-toggle@local"
+  },
+  "keywords": [
+    "gnome-shell",
+    "extension",
+    "audio",
+    "pulseaudio",
+    "ubuntu",
+    "status-bar",
+    "toggle"
+  ],
+  "author": "Local Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/local/audio-toggle-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/local/audio-toggle-extension/issues"
+  },
+  "homepage": "https://github.com/local/audio-toggle-extension#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "linux"
+  ]
+}

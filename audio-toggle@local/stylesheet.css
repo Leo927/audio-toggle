@@ -1,0 +1,37 @@
+/* Basic styling for the audio toggle extension */
+
+.audio-toggle-button {
+    padding: 0 8px;
+}
+
+.audio-toggle-icon {
+    -gtk-icon-size: 16px;
+}
+
+/* Menu styling */
+.audio-toggle-menu-item {
+    font-size: 14px;
+}
+
+.audio-toggle-menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Status indicator */
+.audio-toggle-active {
+    color: #4a90e2;
+}
+
+.audio-toggle-inactive {
+    color: #888;
+}
+
+/* Panel button styling */
+.panel-button:hover .audio-toggle-icon {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+.panel-button:active .audio-toggle-icon {
+    background-color: rgba(255, 255, 255, 0.25);
+}

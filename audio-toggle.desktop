@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Audio Toggle Extension
+Comment=Install and manage the Audio Toggle GNOME Shell extension
+Exec=gnome-terminal -- bash -c "cd /home/sli2/Repos/audio-toggle && make help && read -p 'Press Enter to close...'"
+Icon=audio-speakers
+Terminal=false
+Type=Application
+Categories=AudioVideo;Settings;
+StartupNotify=true

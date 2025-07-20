@@ -1,0 +1,18 @@
+{
+    "uuid": "audio-toggle@local",
+    "name": "Audio Output Toggle",
+    "description": "Toggle between headset and speaker audio outputs from the status bar",
+    "version": 1,
+    "shell-version": [
+        "3.36",
+        "3.38",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+    ],
+    "url": "https://github.com/local/audio-toggle",
+    "gettext-domain": "audio-toggle"
+}

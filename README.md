@@ -1,6 +1,8 @@
 # Audio Toggle Extension
 
 A GNOME Shell extension that adds a toggle button to the Ubuntu status bar for switching between headset and speaker/built-in audio outputs.
+<img width="234" height="187" alt="image" src="https://github.com/user-attachments/assets/acd933e1-ae0a-4d80-a4aa-469b3e760cb5" />
+
 
 ## Features
 
